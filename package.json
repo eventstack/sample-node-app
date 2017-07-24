@@ -1,0 +1,20 @@
+{
+  "name": "sample-node-app",
+  "version": "1.0.0",
+  "description": "Sample node app to deploy",
+  "main": "lib/index.js",
+  "author": "Gavin Minami",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "scripts": {
+    "start": "babel-node src",
+    "build": "babel src -d lib"
+  }
+}
